@@ -39,7 +39,12 @@ def get_fruityvice_data(this_fruit_choice):
 
 
 
-streamlit.header ('Fruityvice Fruit Advice!')
+
+
+
+
+
+streamlit.header ("The fruit load list contains:")
 
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:

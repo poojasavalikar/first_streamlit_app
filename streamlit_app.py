@@ -1,4 +1,4 @@
-import streamlit
+
 streamlit.title('My Moms New Healthy Diner')
 streamlit.header('Breakfast Favourites')
 streamlit.text('🥣 Omega 3   & Blueberry Oatmeal')
@@ -33,6 +33,7 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+"fruit_ch
 
 streamlit.stop()
 
+import streamlit
 import pandas
 import requests
 import snowflake.connector
